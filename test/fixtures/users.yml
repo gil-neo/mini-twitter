@@ -1,0 +1,4 @@
+gilbert:
+ name: Gilbert Rahme
+ email: gil.neo@gmail.com
+ password_digest: <%= User.digest('letmein') %>
